@@ -1,0 +1,33 @@
+{
+  "name": "gog-cli",
+  "version": "0.1.0",
+  "description": "Google Workspace CLI — Gmail, Calendar, Drive, Docs, Sheets, Contacts, Tasks",
+  "type": "module",
+  "bin": {
+    "gog": "./bin/gog.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "keywords": [
+    "google",
+    "gmail",
+    "calendar",
+    "drive",
+    "sheets",
+    "docs",
+    "tasks",
+    "contacts",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "googleapis": "^148.0.0",
+    "jose": "^6.0.11"
+  }
+}
