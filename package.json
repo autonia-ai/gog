@@ -1,5 +1,5 @@
 {
-  "name": "gog-cli",
+  "name": "@autonia/gog",
   "version": "0.1.0",
   "description": "Google Workspace CLI — Gmail, Calendar, Drive, Docs, Sheets, Contacts, Tasks",
   "type": "module",
